@@ -118,3 +118,10 @@ header {
     overflow: hidden;
   }
   
+  @media (max-width: 687px) {
+    .btn {
+      font-size: 1rem;
+      margin: 16px 0px 0px 0px;
+      padding: 10px 15px;
+    }
+  
