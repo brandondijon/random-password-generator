@@ -70,3 +70,51 @@ header {
     display: block;
     clear: both;
   }
+
+  .btn {
+    filter: drop-shadow(0 0 0.75rem crimson);
+    border: none;
+    background-color: red;
+    border-radius: 25px;
+    box-shadow: rgba(7, 3, 3, 0.1) 0px 1px 6px 0px rgba(12, 8, 8, 0.2) 0px 1px 1px
+      0px;
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 16px 16px 16px 20px;
+    padding: 14px 34px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  button[disabled] {
+    cursor: default;
+    background: #c0c7cf;
+  }
+  
+  .float-right {
+    float: right;
+  }
+
+  #password {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    display: flexbox;
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 85px;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px dashed black;
+    border-radius: 6px;
+    resize: none;
+    overflow: hidden;
+  }
+  
