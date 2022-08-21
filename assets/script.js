@@ -70,10 +70,25 @@ function generatePassword()
   console.log(msgLength);
 
   if ((msgLength >= 8 && msgLength <= 110) && !isNaN(msgLength)){
-    console.log('yay!!!');
-    alert('hoorayyyyy!!');
+    console.log();
+    alert();
 }
     else{
         console.log("password needs to be longer");
         prompt("uh oh!Password needs to be at least 8 characters long");
     }
+
+
+    //alert: lowercase letters
+    var lowerCaseMsg = confirm("Do you want to inlcude lowercase letters in your password?");
+    if (lowerCaseMsg==true){
+        console.log("adding lowercase letters");
+        alert("Yay! Adding Lowercase Letters");
+
+        //concatenate the lowercase on  superArray.
+        superArray = superArray.concat(lowerCase);
+    } else{
+        console.log("no lowercase letters");
+        alert("No lowercase");
+    }
+    console.log("superArray after the lowercase", superArray);
