@@ -64,3 +64,7 @@ function generatePassword()
       window.close();
 
   }
+
+  // alert: how long would you like your password? "8 min 26 max"
+  var msgLength = parseInt(prompt("How long would you like your password? 8 min 110 max"));
+  console.log(msgLength);
