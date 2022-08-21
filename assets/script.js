@@ -85,10 +85,40 @@ function generatePassword()
         console.log("adding lowercase letters");
         alert("Yay! Adding Lowercase Letters");
 
-        //concatenate the lowercase on  superArray.
+        //cancatenate the lowercase on  superArray.
         superArray = superArray.concat(lowerCase);
     } else{
         console.log("no lowercase letters");
         alert("No lowercase");
     }
     console.log("superArray after the lowercase", superArray);
+
+    //window prompt: upper case letters
+    var upperCaseMsg = confirm("Do you want to include uppercase letters in your password?");
+    if (upperCaseMsg ==true){
+        console.log("adding uppercase letters");
+        alert("Adding Uppercase Letters");
+
+        //cancatenate the uppercase 
+        superArray = superArray.concat(upperCase);
+        
+    } else{
+        console.log("no uppercase letters");
+        alert("no uppercase letters");
+    }
+    console.log("this is the superArray after the uppercase", superArray);
+
+    //alert: special characters
+    var spCharMsg = confirm("Do you want to add special characters to your password?!");
+    if (spCharMsg==true){
+        console.log("adding special characters");
+        alert("Adding special characters");
+
+        //cancatenate the special characters 
+        superArray = superArray.concat(specialCharacters);
+        
+    } else{
+        console.log("no special characters");
+        alert("No special characters got it");
+    }
+    console.log("this is the array after the special characters", superArray);
