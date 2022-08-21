@@ -117,8 +117,8 @@ function generatePassword() {
   }
   //user  say no
   else {
-    console.log("boo hoo");
-    alert("boo hoo to you");
+    console.log("uh oh");
+    alert("uh oh");
     window.close();
   }
   //alert: how long would you like your password? 8 min 26 max
