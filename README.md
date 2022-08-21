@@ -7,7 +7,7 @@
  
  
  # Github
- ![github](https://user-images.githubusercontent.com/108966627/185777822-f683bc49-89cc-48ec-867c-44ea5c710126.mov)
+ ![github](https://user-images.githubusercontent.com/108966627/185776957-65241b62-0017-4567-8421-fa3f0c4b0d33.png)
  
  https://github.com/brandondijon/random-password-generator
  
