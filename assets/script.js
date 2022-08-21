@@ -46,13 +46,21 @@ function generatePassword()
 
   // alert welcome to password generator//
 
-    var popupTest = prompt('welcome lets generate!')
+    var popupTest = prompt("welcome lets generate!")
     console.log(popupTest);
     // Assignment Code
-    var welcomeMessage = confirm('Welcome to the password generator! Get ready to generate your  password?')
+    var welcomeMessage = confirm("Welcome to the password generator! Get ready to generate your  password?")
     console.log(welcomeMessage);
-    confirm('Welcome to the Password Generator! Ready to Generate Your Password?');
+    confirm("Welcome to the Password Generator! Ready to Generate Your Password?");
     //user says "ok"//
     if (welcomeMessage===true){
-            confirm('Lets go!!')
+            confirm("Lets go!!")
     }
+
+    //if  no
+    else {
+      console.log('uh oh');
+      alert('uh oh')
+      window.close();
+
+  }
