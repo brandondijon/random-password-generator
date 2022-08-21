@@ -68,3 +68,12 @@ function generatePassword()
   // alert: how long would you like your password? "8 min 26 max"
   var msgLength = parseInt(prompt("How long would you like your password? 8 min 110 max"));
   console.log(msgLength);
+
+  if ((msgLength >= 8 && msgLength <= 110) && !isNaN(msgLength)){
+    console.log('yay!!!');
+    alert('hoorayyyyy!!');
+}
+    else{
+        console.log("password needs to be longer");
+        prompt("uh oh!Password needs to be at least 8 characters long");
+    }
